@@ -35,7 +35,7 @@ The following uses commonly used machine learning algorithms to fit and evaluate
 
 ![Figure_3](https://user-images.githubusercontent.com/78809297/111137631-fd4c1d80-85b9-11eb-9f69-dd6a514e08aa.png)
 
-For comparison, firstly we use baseline features only to fit the model. We can see that cross_val_score is hovering in the area of accuracy = 0.5, which indicates that only using baseline features related to one asset is not suitable for predicting accurate asset directionality.
+For comparison, firstly we use baseline features only to fit the model. We can see that the test scores are not very pretty, which indicates that only using baseline features related to one asset is not suitable for predicting accurate asset directionality.
 
 ![Figure_4](https://user-images.githubusercontent.com/78809297/111137645-01783b00-85ba-11eb-9c45-b88197ad4d87.png)
 
